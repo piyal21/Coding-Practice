@@ -1,4 +1,8 @@
 
+# -> Time Complexity O(N log N)
+
+
+
 nums = [ 3,2,6,7,9,9,4,5,10,1,4,15,30,5,8,8,2]
  
 def merge_sort(arr):
@@ -40,5 +44,5 @@ def merge_array(left, right):
     return result_array
 
 
-result = merge_sort(nums)
-print(result)
+sorted_nums = merge_sort(nums)
+print(sorted_nums)
